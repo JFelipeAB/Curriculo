@@ -166,6 +166,6 @@
 })(jQuery);
 
 $(document).ready(function () {
-  $('#CopyRigth').text(new Date().getFullYear() + ', João Felipe')
-  $('#minhaIdade').text('26 Mar 1999, '+ (new Date().getFullYear()-1999) + ' anos')
+  $('#CopyRigth').text(new Date().getFullYear() + ', João Felipe');
+  $('.minhaIdade').text((new Date().getFullYear()-1999) + ' anos');
 });
